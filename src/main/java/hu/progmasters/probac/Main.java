@@ -9,5 +9,7 @@ public class Main {
         System.out.println("Hello world!");
         Morse morse = new Morse();
         System.out.println(morse.ConvertText2Morse("ABA BABA KRUMPLI"));
+        System.out.println(morse.getPosInAlphabet("C"));
+        morse.printMorseCode("ABA BABA KRUMPLI");
     }
 }
